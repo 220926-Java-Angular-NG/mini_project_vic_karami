@@ -31,6 +31,16 @@ public class User {
         mood = "";
     }
 
+    public User(String firstName, String lastName, String email, String password, String horoscopeSign) {
+        this.id = 0;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.horoscopeSign = horoscopeSign;
+        this.mood = "";
+    }
+
     public User(String first_name, String last_name, String email, String password, String horoscope_sign, String mood) {
         this.firstName = first_name;
         this.lastName = last_name;

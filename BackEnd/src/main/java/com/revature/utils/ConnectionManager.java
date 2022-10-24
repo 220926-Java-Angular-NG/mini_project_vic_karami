@@ -35,7 +35,7 @@ public class ConnectionManager {
         Properties properties = new Properties();
 
         try {
-            FileInputStream fileInputStream = new FileInputStream("src/main/java/resources/jdbc.properties");
+            FileInputStream fileInputStream = new FileInputStream("src/main/resources/jdbc.properties");
 
             properties.load(fileInputStream);
         } catch(IOException ioException){

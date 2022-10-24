@@ -11,8 +11,8 @@ public interface CRUDDaoInterface<T> {
     // Returns a primary key of this newly added row
     int create(T t);
 
-    // Retrieve a record by id = SELECT Id
-    T getById(int id);
+    // Retrieve a record by email
+    T getByEmail(String email);
 
     // Update a record = UPDATE record
     T update(T t);

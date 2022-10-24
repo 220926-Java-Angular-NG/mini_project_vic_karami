@@ -1,0 +1,29 @@
+body{
+    background-image: url(./horoscope.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-size: x-large;
+    line-height: 1.5;
+    color:aliceblue;
+    
+}
+.center{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+div.transbox {
+    text-align: center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    text-align: center;
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }

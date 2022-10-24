@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New User</title>
+    <link rel="stylesheet" href="horoscope.css">
+</head>
+<body>
+    <h1>Register New User</h1>
+    <div id="main">
+        <table>
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" id="first-name" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last-name" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="example@domain.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td><label for="password1">Repeat Password:</label></td>
+                <td><input type="password" id="password1" placeholder="Repeat your password"></td>
+            </tr>
+            <tr>
+                <td><label for="horoscope">Horoscope Sign:</label></td>
+                <td>
+                    <select name="horoscope" id="sign">
+                        <option value="default">Choose Your Horoscope Sign</option>
+                        <option value="aries">Aries</option>
+                        <option value="taurus">Taurus</option>
+                        <option value="gemini">Gemini</option>
+                        <option value="cancer">Cancer</option>
+                        <option value="leo">Leo</option>
+                        <option value="virgo">Virgo</option>
+                        <option value="libra">Libra</option>
+                        <option value="scorpio">Scorpio</option>
+                        <option value="sagitarius">Sagitarius</option>
+                        <option value="capricorn">Capricorn</option>
+                        <option value="aquarius">Aquarius</option>
+                        <option value="pisces">Pisces</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="back-button">Back To Login</button></td>
+                <td><button id="register-button">Register</button></td>
+            </tr> 
+        </table>   
+    </div>
+
+    <script src="./register.js"></script>
+</body>
+</html>
